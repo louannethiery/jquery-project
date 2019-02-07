@@ -2,24 +2,47 @@ body {
     margin: 0;
 }
 nav{
-    background-color: grey;
-    display: flex;
-    justify-content: center
+    background-color: rgb(22, 22, 22);
+
 }
+
 li{
     list-style: none;
     font-size: 30px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    margin: 0;
 }
 a{
     text-decoration: none;
     color: aliceblue;
 }
 .block{
-    height: 300px;
+    height: 250px;
 }
 .block:nth-child(odd){
-    background-color:antiquewhite;
+    background-color:rgb(143, 92, 92);
 }
 .block:nth-child(even){
-    background-color: bisquec;
+    background-color: bisque;
+}
+
+#scrolltotop{
+    position: fixed;
+    opacity: 0;
+    bottom: 100px;
+    right: 100px;
+    height: 100Px;
+    width: 100px;
+    background: rgba(0, 0, 0, 0.521);
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    transition: all 0.5s;
 }
